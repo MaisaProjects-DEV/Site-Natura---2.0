@@ -1,0 +1,264 @@
+*{
+
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+
+}
+
+#bg-video{
+
+position: fixed;
+top:0;
+left: 0;
+width: 100%;
+height: 100%;
+object-fit: cover;
+z-index: -2;
+
+
+
+
+}
+
+.overlay{/*ver esse*/
+
+position: fixed;
+top:0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(6, 40, 125, 0.519); 
+z-index: -1;/*ver esse*/
+
+}
+
+.container{
+
+    width: 100%;
+    height: 100vh;
+    padding: 30px 80px;
+
+}
+
+header{
+position: ;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+
+}
+
+.logo img{
+
+width: 60px;
+
+}
+
+nav{
+
+display: flex;
+gap: 40px;
+
+
+
+}
+
+nav a{
+
+color: rgb(255, 255, 255);
+text-decoration: none;
+font-weight: bold;
+
+}
+
+nav a:hover{
+     color: rgb(0, 12, 48);
+     text-decoration: underline;
+     transition: 0.5s;
+}
+
+.redes{
+
+display: flex;
+gap: 20px;
+font-size: 20px;
+color: black;
+
+}
+
+.redes i{
+
+cursor: pointer;
+
+}
+
+.redes i:hover{
+
+color: aliceblue;
+transition: 0.5s;
+
+}
+
+
+/*---------------------------------AREA PRINCIPAL---------------------------------------*/
+
+main{
+
+height: 85vh;
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+}
+
+.texto{
+
+width: 45%;
+
+}
+
+.texto h1{
+
+font-size: 60px;
+color: black    ;
+margin-bottom: 20px;
+
+}
+
+.texto p{
+
+font-size: 20px;
+margin-bottom: 30px;
+color: black;
+line-height: 30px;/*ver esse*/
+
+}
+
+.botoes{
+
+display: flex;
+gap: 20px;
+
+}
+
+button{
+
+padding: 15px 35px;
+border: none;
+font-size: 16px;
+font-weight: bold;
+cursor: pointer;
+
+}
+
+.btn-azulroyal{
+
+background-color: rgb(0, 31, 125);
+border-radius: 5px;
+
+}
+
+.btn-azulroyal:hover{
+
+    background-color: rgb(183, 195, 232);
+
+}
+
+
+.btn-azullight{
+
+background-color: rgb(0, 31, 125);
+border-radius: 5px;
+
+}
+
+.btn-azullight:hover{
+
+    background-color: rgb(183, 195, 232);
+
+}
+
+
+
+.Produtos{
+
+height: 100vh;
+background-color: rgb(68, 105, 174);
+padding: 80px;
+
+}
+
+.cards{
+
+display: flex;
+gap: 30px;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;/*ver esse*/
+
+}
+
+.card{
+
+background-color: antiquewhite;
+width: 250px;
+border-radius: 15px;
+overflow: hidden;   /*ver esse*/
+box-shadow: 0 0 15px black rgba(0, 0, 0,0.5);
+
+}
+
+.card:hover{
+
+transform: translateY(-10px);
+transition: 0.5s;/*ver esse*/
+
+}
+
+.card img{/*imagem do card*/
+
+width: 100%;
+height: 250px;
+object-fit: cover;/*ver esse*/
+
+}
+
+.card h3{/*titulo do card*/
+
+padding: 20px 10px;
+font-size: 22px;
+
+}
+
+.card p{/*paragraf do card*/
+
+padding: 0 20px;
+color: black;
+margin-bottom: 20px;
+
+}
+
+.card a{
+
+display: block;
+text-align: center;
+background-color: rgb(119, 131, 189);
+color: aliceblue;
+text-decoration: none;/*tirar a barra em baixo da ancora*/
+padding: 15px;
+font-weight: bold;
+
+}
+
+.card a:hover{
+
+background-color: rgb(195, 201, 228);
+
+}
+
+
+
+
+
